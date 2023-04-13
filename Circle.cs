@@ -10,8 +10,9 @@ namespace OOpShapes
     {
         
         private double radius;
+        
 
-        public Circle(int r) 
+        public Circle(double r) 
         {
             this.radius = r; 
         }
