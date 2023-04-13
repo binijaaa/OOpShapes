@@ -9,6 +9,10 @@
 
             Console.WriteLine($"Area of the square1: {square1.GetArea()}");
             Console.WriteLine($"Area of the square2: {square2.GetArea()}");
+
+            Circle circle1 = new Circle(30);
+
+            Console.WriteLine($"Area of the circle1: {circle1.GetArea()}");
         }
     }
 }

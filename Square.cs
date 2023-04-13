@@ -17,7 +17,7 @@ namespace OOpShapes
             this.side = a; //side fields will get the value of a, this way doesn't need set, get
         }
 
-        public override int GetArea()
+        public override double GetArea()
         {
             return this.side * this.side; //square area is a*a
         }

@@ -10,6 +10,6 @@ namespace OOpShapes
 {
     abstract class Shape //is empty, functions without body
     {
-        public abstract int GetArea(); //function 
+        public abstract double GetArea(); //function 
     }
 }
